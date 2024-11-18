@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Call Stack In Java Script.</title>
+</head>
+<p>Do a calculation and display it.</p>
+<p id="demo"></p>
+<body>
+    <script>
+        function add(a,b){
+        return a+b;
+        }
+        function average(a,b){
+        return add(a,b)/2;
+        }
+        let result = average(99,11);
+        document.getElementById("demo").innerHTML = result;
+    </script>
+</body>
+</html>
